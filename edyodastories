@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edyoda Stories Blog Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header {
+            background-color: #fff;
+            border: 1px solid rgb(219, 211, 211);
+            border-radius: 8px;
+            width: 1200px;
+            margin: 23px;
+            padding-bottom: 1px;
+            padding: auto;
+        }
+
+        .move {
+            margin: 30px;
+        }
+
+        .card {
+            width: 300px;
+            height: 425px;
+            border: 2px solid rgb(239, 236, 236);
+            border-radius: 22px;
+            
+            float:left;
+            margin-right:70px; 
+            
+        }
+
+
+        div img {
+            border-bottom: 2px solid black;
+            border-radius: 20px;
+            height: 200px;
+            width: 100%;
+            /* display: inline-block;
+            margin-left: auto;
+            margin-right: auto; */
+
+        }
+
+        .navbar {
+            /* background-color: rgb(239, 232, 232); */
+            /* border-radius: 30px; */
+            margin: 50px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 5px;
+            /* text-decoration: none; */
+            border: 1px solid #0084ff;
+            border-radius: 15px;
+            padding: 6px 14px;
+            width: auto;
+            color: #0084ff;
+        }
+
+        .navbar li:hover {
+            color: white;
+            background-color: #0084ff;
+        }
+
+        .filter {
+            margin: 50px;
+            padding-top: 0px;
+        }
+
+        main {
+
+            text-align: center;
+            text-transform: uppercase;
+            margin-left: 90px;
+            
+        }
+
+        button {
+            border: none;
+            padding: 8px 16px;
+            text-decoration: none;
+            background-color: inherit;
+            cursor: pointer;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="obsolute">
+        <header>
+            <div class="move">
+                <p><span class="drop" style="font-weight: 800; font-size: 40px; color: #0084ff; ">EDYODA</span>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="padding-left: 8px; font-size: 20px;"><button
+                            class="w3-button w3-hover-orange">Explore category<i
+                                class="fa fa-caret-down"></i></button></span><span style="font-size:30px;"></span>
+                </P>
+                </P>
+                <p
+                    style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 15px;">
+                    <i>
+                    stories</i></P>
+            </div>
+        </header>
+        <h1 style="margin-left: 50px;">Trending Posts</h1>
+        <nav class="navbar">
+            <span style="margin-bottom: 23px; padding-bottom: 23px;"><svg xmlns="http://www.w3.org/2000/svg"
+                    height="1em" viewBox="0 0 512 512"
+                    style="color: #0084ff;"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z" />
+                </svg><span style="font-family: Arial, Helvetica, sans-serif; padding-bottom:100px;">Filter by
+                    category</span>
+
+            <ul>
+                <li>All</li>
+                <li>Artificial Intelligence</li>
+                <li>Cloud Computing</li>
+                <li>Dev Ops</li>
+                <li>Programming Languages</li>
+                <li>Mobile Application Development</li>
+                <li>Technologies And Tools</li>
+                <li>Get A Job In A Tech Companies</li>
+                <li>Others</li>
+            </ul>
+        </nav>
+        <main>
+            <div class="card" id="card1">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png">
+                <h4><b>Inroduction to a machine learning online course</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card2">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png">
+                <h4><b>LAMP Stack Vs Mean STACK</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card3">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png">
+                <h4><b>Impact Of Cloud Computing In A Various Industries</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card4">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png">
+                <h4><b>Challenge Of Machine Learning</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card5">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png">
+                <h4><b>Breaking Themyth around CyberSecurities</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card6">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png">
+                <h4><b>Importance of Data Backup</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card7">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png">
+                <h4><b>What is Web Scrapping</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card8">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png">
+                <h4><b>What is Income Share Agreement</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo
+                    vel magnam natus delectus voluptas eum omnis deleniti laborum?</p>
+            </div>
+            <div class="card" id="card9">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png">
+                <h4><b>Practical Machine Learning With Python</b></h4>
+                <br>
+                <p><span style="color: #0084ff;">EDYODA </span><span style="font-weight: 500;">|24 AUG 2019</span></p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, nisi. Dicta doloribus ipsum minima!
+                    Minima repellat ratione a nemo porro.</p>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
